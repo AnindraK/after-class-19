@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculating with code</h1>
+    <p id="id1">laptop</p>
+    <p id="id2"></p>
+    <p id="id3"></p>
+    <p id="id4"></p>
+    <script>
+        let add3 = function (a, b) {
+            return a + b;
+        }
+        document.getElementById("id1").innerHTML = add3(5, 200)
+
+        let hello = function (a, b) {
+            return a / b;
+        }
+        document.getElementById("id3").innerHTML = hello(10, 4)
+
+        let hi = function (a, b) {
+            return a * b;
+        }
+        document.getElementById("id2").innerHTML = hi(10, 3)
+
+        let yes = function (a, b) {
+            return a - b;
+        }
+        document.getElementById("id4").innerHTML = yes(10, 9)
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
